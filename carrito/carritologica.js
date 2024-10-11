@@ -11,7 +11,7 @@ const obtenerProductos = async(url) => {
   } catch (error) {
     console.error(error.message);
   } finally {
-    console.log('te quiero mucho');
+    console.log('peticion finalizada');
   }
 }
 
